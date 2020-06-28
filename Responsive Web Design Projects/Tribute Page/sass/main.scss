@@ -1,0 +1,71 @@
+@import './config';
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-weight: 700;
+}
+p {
+    font-weight: 600;
+}
+h3,h4 {
+    font-weight: 600;
+}
+main {
+    background-color: $primary-color;
+    border-radius: 5px;
+    #title {
+        text-align: center;
+        line-height: 3;
+        margin-top: 30px;
+        padding: 20px 0px;
+    }
+    #img-div {
+        background-color: $secondary-color;
+        width: 95%;
+        margin: 0 auto;
+       
+        figure {
+            text-align: center;
+            #image {
+                max-width: 90%;
+                display: block;
+                margin: 0 auto;
+            }
+            #img-caption {
+                padding: 10px 0px;
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+        }
+    }
+    #tribute-info {
+        width: 60%;
+        margin: auto;
+        padding: 50px;
+    }
+    h4 {
+        text-align: center;
+        padding-bottom: 30px;
+        font-weight: 400px;
+    }
+    span {
+        font-weight: bold;
+    }
+    li {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 10px 0px;
+        line-height: 2;
+        text-align: justify;
+    }
+    .qt {
+        font-style: italic;
+    }
+    .footer-text {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
