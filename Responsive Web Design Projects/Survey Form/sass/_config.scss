@@ -1,0 +1,12 @@
+$primary-color: #2A2A49;
+$secondary-color: #fff;
+$btn-color: #37AF65;
+$text-color: #495057;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@mixin transition {
+    transition: border-color 0.15s ease-in-out;
+}
