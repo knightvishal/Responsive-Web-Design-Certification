@@ -1,0 +1,21 @@
+$primary-color : #2F3134;
+$secondary-color: #45567D;
+$main-red: #BE3144;
+$main-white: #fff;
+$main-black: #000;
+$main-gray: #303841;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@function set-text-color($color) {
+    @if (lightness($color)> 40%) {
+        @return #000;
+    }
+    @else {
+        @return #fff;
+    }
+}
